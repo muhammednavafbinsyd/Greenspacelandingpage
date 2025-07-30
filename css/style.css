@@ -42,8 +42,7 @@ header nav ul li a:hover {
     /* Highlight on hover */
 }
 .search-bar {
-border: 1px solid #868686;
-    border-radius: 5px;
+    border-bottom: 1px solid #52B531;
     padding: 0.5rem;
     display: flex;
     align-items: center;
