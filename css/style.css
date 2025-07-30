@@ -1,0 +1,59 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header container */
+header {
+    display: flex;
+    justify-content: space-between;
+    /* Distributes items evenly */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Navigation list */
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* Better than padding for spacing */
+    list-style: none;
+    font-family: "Libre Baskerville";
+}
+
+/* Navigation items */
+header nav ul li {
+    /* Remove excessive padding - use gap instead */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #868686;
+    transition: color 0.5s ease; /* Optional: smooth transition */
+}
+
+/* Fixed hover selector - removed the space before :hover */
+header nav ul li a:hover {
+    color: #54b531;
+    /* Highlight on hover */
+}
+.search-bar {
+border: 1px solid #868686;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.search-bar input{
+    outline: none;
+    border: none;
+   
+}
+::-webkit-input-placeholder{
+color: #52B531;
+}
