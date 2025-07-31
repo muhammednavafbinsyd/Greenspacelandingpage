@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>Green Space</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <!-- Navigation menu -->
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#home">HOME</a></li>
+                <li><a class="nav-link" href="#about">ABOUT</a></li>
+                <li><a class="nav-link" href="#services">SERVICES</a></li>
+                <li><a class="nav-link" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
         <div class="search-bar">
@@ -29,17 +29,30 @@
     </header>
 
     <main>
-        <section>
+        <section class="hero-section">
             <!-- Main content sections -->
+            <div class="contents">
+                <h1>The green space</h1>
+                <div class="">
+                    <h5>BRING THE GREEN SPACE TO YOUR OWN HOME</h5>
+                </div>
+                <p>Plants are shown to boost moods, increase creativity, reduce stress, and eliminate air pollutants —
+                    making for a healthier, happier you. - By The Sill</p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="image-container">
+
+                <img  src="./images/plant.png" alt="Green Space Image">
+            </div>
         </section>
     </main>
-
-    <aside>
-        <!-- Sidebar content -->
-    </aside>
-
     <footer>
-        <!-- Footer content -->
+        <div>
+            <svg class="arrow-svg" viewBox="0 0 30 30" fill="none">
+                <path d="M20 5v18m7-7l-7 7-7-7" stroke="#5cb85c" stroke-width="1" stroke-linecap=""
+                    stroke-linejoin="round" />
+            </svg>
+        </div>
     </footer>
 </body>
 

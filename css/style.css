@@ -1,58 +1,68 @@
-/* Reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header container */
-header {
+:root {
+    --primary-color: #52B531;
+    --text-color: #868686;
+    --font-family: "Libre Baskerville", serif;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    /* Distributes items evenly */
     align-items: center;
     padding: 1rem 2rem;
 }
 
-/* Navigation list */
-header nav ul {
+.nav-list {
     display: flex;
     align-items: center;
     gap: 2rem;
-    /* Better than padding for spacing */
     list-style: none;
-    font-family: "Libre Baskerville";
+    font-family: var(--font-family);
 }
 
-/* Navigation items */
-header nav ul li {
-    /* Remove excessive padding - use gap instead */
-}
-
-header nav ul li a {
+.nav-link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: #868686;
-    transition: color 0.5s ease; /* Optional: smooth transition */
+    color: var(--text-color);
+    transition: color 0.5s ease;
 }
 
-/* Fixed hover selector - removed the space before :hover */
-header nav ul li a:hover {
-    color: #54b531;
-    /* Highlight on hover */
+.nav-link:hover {
+    color: var(--primary-color);
+
 }
+
 .search-bar {
-    border-bottom: 1px solid #52B531;
+    border-bottom: 1px solid var(--primary-color);
     padding: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-.search-bar input{
+
+.search-bar input {
     outline: none;
     border: none;
-   
 }
-::-webkit-input-placeholder{
-color: #52B531;
+
+.search-bar input::placeholder {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.hero-section{
+    display: flex;
+    place-items: center;
+}
+
+
+
+.arrow-svg {
+    height: 80px;
+    width: 80px;
 }
