@@ -8,6 +8,7 @@
     --primary-color: #52B531;
     --text-color: #868686;
     --font-family: "Libre Baskerville", serif;
+    --font-family-secondary: 'Poppins', sans-serif;
 }
 
 .header {
@@ -36,7 +37,6 @@
     color: var(--primary-color);
 
 }
-
 .search-bar {
     border-bottom: 1px solid var(--primary-color);
     padding: 0.5rem;
@@ -44,24 +44,49 @@
     align-items: center;
     gap: 0.5rem;
 }
-
 .search-bar input {
     outline: none;
     border: none;
 }
-
 .search-bar input::placeholder {
     color: var(--primary-color);
     opacity: 1;
 }
-
 .hero-section{
     display: flex;
+    flex-wrap: wrap;
     place-items: center;
+    justify-content: space-evenly;
 }
-
-
-
+.contents{
+    color: var(--primary-color);
+}
+.green-sapce-title{
+  font-size: clamp(24px, 6vw, 88px);
+}
+h5{
+      font-size: clamp(14px, 4vw, 18px);
+      font-family: var(--font-family-secondary);
+}
+.text-border{
+    border-top: #52B531 solid 2px;
+    border-bottom: #52B531 solid 1px;
+    padding: 7px;
+    width: fit-content;
+}
+.paragraph{
+    font-family: var(--font-family-secondary);
+    font-size: clamp(14px, 3vw, 16px);
+}
+.button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-family-secondary);
+    font-size: clamp(14px, 3vw, 16px);
+}
 .arrow-svg {
     height: 80px;
     width: 80px;
