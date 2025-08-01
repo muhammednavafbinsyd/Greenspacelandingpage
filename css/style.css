@@ -11,10 +11,11 @@
     --font-family-secondary: 'Poppins', sans-serif;
 }
 
+
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 1rem 2rem;
 }
 
@@ -56,7 +57,7 @@
     display: flex;
     flex-wrap: wrap;
     place-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .contents{
     color: var(--primary-color);
@@ -87,6 +88,7 @@ h5{
     font-family: var(--font-family-secondary);
     font-size: clamp(14px, 3vw, 16px);
 }
+
 .arrow-svg {
     height: 80px;
     width: 80px;
