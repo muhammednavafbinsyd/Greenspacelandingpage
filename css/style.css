@@ -35,7 +35,6 @@
 
 .nav-link:hover {
     color: var(--primary-color);
-
 }
 
 .search-bar {
@@ -59,13 +58,16 @@
     display: flex;
     flex-wrap: wrap;
     place-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .contents {
-   color: var(--primary-color);
+    color: var(--primary-color);
 }
-
+.texts {
+   margin-top: 3rem;
+  
+}
 .green-sapce-title {
     font-size: clamp(24px, 6vw, 88px);
 }
@@ -85,6 +87,7 @@ h5 {
 .paragraph {
     font-family: var(--font-family-secondary);
     font-size: clamp(14px, 3vw, 16px);
+
 }
 
 .button {
@@ -100,4 +103,13 @@ h5 {
 .arrow-svg {
     height: 80px;
     width: 80px;
+    margin-top:  200px;
 }
+
+@media (max-width: 768px) {
+    
+        .arrow-svg{
+            display: none;
+        }
+
+        }
