@@ -53,18 +53,17 @@
 
 .search-bar input::placeholder {
     color: var(--primary-color);
-    opacity: 1;
 }
 
 .hero-section {
     display: flex;
     flex-wrap: wrap;
     place-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .contents {
-    color: var(--primary-color);
+   color: var(--primary-color);
 }
 
 .green-sapce-title {
