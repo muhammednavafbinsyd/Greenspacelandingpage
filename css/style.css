@@ -64,10 +64,12 @@
 .contents {
     color: var(--primary-color);
 }
+
 .texts {
-   margin-top: 3rem;
-  
+    margin-top: 3rem;
+
 }
+
 .green-sapce-title {
     font-size: clamp(24px, 6vw, 88px);
 }
@@ -103,13 +105,15 @@ h5 {
 .arrow-svg {
     height: 80px;
     width: 80px;
-    margin-top:  200px;
+    margin-top: 200px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
-    
-        .arrow-svg{
-            display: none;
-        }
 
-        }
+    .arrow-svg {
+        display: none;
+        cursor: pointer;
+    }
+
+}
